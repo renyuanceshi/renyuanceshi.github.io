@@ -1,6 +1,6 @@
 
 
-![](https://raw.githubusercontent.com/renyuanceshi/renyuanceshi.github.io/master/img/readme-home.png)
+#![](https://raw.githubusercontent.com/renyuanceshi/renyuanceshi.github.io/master/img/readme-home.png)
 
 [![Build Status](https://travis-ci.org/renyuanceshi/renyuanceshi.github.io.svg?branch=master)](https://travis-ci.org/renyuanceshi/renyuanceshi.github.io)
 [![codebeat badge](https://codebeat.co/badges/5f031df3-f6c1-4ec0-911a-ff6617ca50b9)](https://codebeat.co/projects/github-com-renyuanceshi-renyuanceshi-github-io-master)
@@ -10,7 +10,7 @@
 [![](https://img.shields.io/github/forks/renyuanceshi/renyuanceshi.github.io.svg?style=social&label=Fork)](https://github.com/renyuanceshi/renyuanceshi.github.io)
 
 
-博客的搭建教程修改自 [BY](https://github.com/qiubaiying/qiubaiying.github.io) 
+博客的搭建教程修改自 [BY Blog](https://github.com/qiubaiying/qiubaiying.github.io) 
  
 更为详细的教程戳这 [wiki](https://github.com/renyuanceshi/renyuanceshi.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B)
 
@@ -53,13 +53,13 @@
 
 ```
 # Site settings
-title: BY Blog                    # 你的博客网站标题
-SEOTitle: **柏荧的博客** | BY Blog		# SEO 标题
+title:   Notes for the future                  # 你的博客网站标题
+SEOTitle: 給未來的筆記 | Notes for the future		# SEO 标题
 description: "Hey"	   	   # 随便说点，描述一下
 
 # SNS settings      
 github_username: renyuanceshi     # 你的github账号
-jianshu_username: e71990ada2fd  # 你的简书ID。
+#jianshu_username: e71990ada2fd  # 你的简书ID。
 
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章
@@ -76,15 +76,14 @@ yaml 头文件长这样:
 ```
 ---
 layout:     post
-title:      定时器 你真的会使用吗？
-subtitle:   iOS定时器详解
-date:       2016-12-13
-author:     BY
-header-img: img/post-bg-ios9-web.jpg
-catalog: 	 true
+title:      Hello 2024
+subtitle:    "\"Hello World, Hello Blog\""
+date:       2024-07-11
+author:     CSRY
+header-img: img/post-bg-2015.jpg
+catalog: true
 tags:
-    - iOS
-    - 定时器
+    - Initial
 ---
 
 ```
@@ -127,7 +126,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 
 ### Social-media Account
 
-在下面输入的社交账号，没有的添加的不会显示在侧边框中。新加入了[简书](https:/www.jianshu.com)链接, <http://www.jianshu.com/u/e71990ada2fd>
+在下面输入的社交账号，没有的添加的不会显示在侧边框中。
 
 	# SNS settings
 	RSS: false
@@ -135,7 +134,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 	zhihu_username:     username
 	facebook_username:  username
 	github_username:    username
-	# weibo_username:   username
+	weibo_username:     username
 	
 	
 
@@ -151,13 +150,9 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 # Friends
 friends: [
     {
-        title: "BY Blog",
+        title: "Notes for the future",
         href: "https://renyuanceshi.github.io/"
     },
-    {
-        title: "Apple",
-        href: "https://apple.com/"
-    }
 ]
 ```
 
@@ -214,7 +209,7 @@ disqus_username: renyuanceshi
 
 **使用：**
 
-参考我的这篇文章：[《为博客添加 Gitalk 评论插件》](http://renyuanceshi.top/2017/12/19/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0-Gitalk-%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/)
+#参考我的这篇文章：[《为博客添加 Gitalk 评论插件》](http://renyuanceshi.top/2017/12/19/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0-Gitalk-%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/)
 
 
 ### Analytics
@@ -248,7 +243,7 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 
 ### SEO Title
 
-我的博客标题是 **“BY Blog”** 但是我想要在搜索的时候显示 **“柏荧的博客 | BY Blog”** ，这个就需要 SEO Title 来定义了。
+我的博客标题是 **“Notes for the future”** 但是我想要在搜索的时候显示 **“給未來的筆記 | Notes for the future”** ，这个就需要 SEO Title 来定义了。
 
 其实这个 SEO Title 就是定义了<head><title>标题</title></head>这个里面的东西和多说分享的标题，你可以自行修改的。
 
